@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+        
+    </style>
+    <title>Document</title>
+</head>
+    <div id="myNav">
+        <div class="navLeft"><a href="">第一影城</a></div>
+        <ul class="navRight">
+            <li class="navList"><a href="new.html">最新公告</a></li>
+            <li class="navList"><a href="">電影資訊</a></li>
+            <li class="navList"><a href="intro.html">影城介紹</a></li>
+            <li class="navList"><a href="">登入第一影城</a></li>
+        </ul>
+    </div>
+    <!-- 導覽列的漢堡 -->
+    <a class="ham" onclick="openNav()">&#9776;</a>
+    <a class="ham-x" onclick="closeNav()">×</a>
+
+    <!-- 內容 -->
+    <div>
+        <div  class="container loca">
+            <h2>口述影像介紹</h2>
+            <P>視障口述影像服務（英文：audio description，或descriptive video service），簡稱口述影像，是一種透過口語或文字敘述，將視障者無法接收的影像訊息轉換成言辭符號，讓視障者也能克服視覺障礙，協助他們克服生活、學習和就業環境中各種影像障礙的服務。簡單地說，口述影像就是把「看見」的「說」出來。</P>
+            <P>口述影像電影就是在不干擾節目原有之聲音訊息和對白的情況下，將影片中的視覺成分，如空間佈景、場景、人物表情、動作等用語言加以解釋與描述的技術，讓視障者可以感受到電影饗宴。</P>
+            <h2>電影購票須知</h2>
+            <P>一、視障者憑『身心障礙證明』可購買「愛心票」。</P>
+            <P>二、『愛心票』可於線上訂票或至影城臨櫃購票，若於線上訂購愛心票，須於電影開演前30分鐘憑『身心障礙證明』至影城臨櫃出示證件取票，每張票需加收$20線上訂票手續費。</P>
+            <P>口述影像影城相關資訊:</P>
+            <ul>
+                <li>第一影城:台中市東區南京路76號 電話：(04)-3476-2366</li>
+            </ul>
+            <p>三、如欲訂票或查詢場次，請參閱電影「口述影像」之場次時間。</p>
+            
+            <h2>相關問題</h2>
+            <P>Q1：口述場與一般場有何不同?</P>
+            <P>電影內容無差異，口述場有另外提供視障者專用耳機租借服務，讓視障者可以欣賞影片。只有配戴專用耳機的觀眾可聽到口語述敘，因此不會影響同場觀眾，所以非視障者也能一起同享口述場影片。</P>
+            <P>Q2：每部電影皆有口述場次嗎?</P>
+            <P>僅有經過口述影像專業製作的影片才有，訂票時請點選標示『口述場』之場次。</P>
+            <P>Q3：如何租借口述影像設備?</P>
+            <P>視障者可憑身心障礙證明免費借用。租借期間使用者需質押有效證件，散場時應歸還口述影像設備，經服務人員確認設備完好無缺後退還證件，若口述影像設備返還時有損毀或遺失，使用者須照價賠償。</P>
+            <P></P>
+            <P></P>
+            <P></P>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <!-- sns-icon -->
+        <div class="icon">
+            <div class="footerLeft"><a href="#">第一影城</a></div>
+            <a href="#"><i class="fa-facebook-official fa fa-3x fc"></i></a>
+            <a href="#"><i class="fa-instagram fa fa-3x ig"></i></a>
+            <a href="#"><i class="fa fa-envelope fa-3x ec"></i></a>
+        </div>
+        <div class="footer-content" >
+            <div class="w-33">
+                <div>影城資訊<br>Movie</div>
+                <a href="./intro.html">影城介紹</a><br>
+                <a href="./news.html">最新公告</a><br>
+                <a href=""></a>
+            </div>  
+            <div class="w-33">
+                <div>會員資訊<br>Member</div>
+                <a href="">加入會員</a><br>
+                <a href="">個人專區</a><br>
+                <a href="">我的票夾</a><br>
+            </div> 
+            <div class="w-33"> 
+                <div>其他資訊<br>More</div>
+                <a href="">常見問題</a><br>
+                <a href="./audio.html">口述影像</a><br>
+                <a href=""></a>
+            </div>   
+        </div>
+    </div>
+    <!-- 置頂 -->
+    <a href="#" class="pagetop">↑</a>
+
+    <!-- 導覽列(div)的RWD -->
+    <script>
+        function openNav() {
+          document.getElementsByClassName("navRight")[0].style.display = "block";
+          document.getElementsByClassName("ham")[0].style.display = "none";
+          document.getElementsByClassName("ham-x")[0].style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementsByClassName("navRight")[0].style.display = "none";
+            document.getElementsByClassName("ham")[0].style.display = "block";
+            document.getElementsByClassName("ham-x")[0].style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Document</title>
+</head>
+    <div id="myNav">
+        <div class="navLeft"><a href="">第一影城</a></div>
+        <ul class="navRight">
+            <li class="navList"><a href="new.html">最新公告</a></li>
+            <li class="navList"><a href="">電影資訊</a></li>
+            <li class="navList"><a href="intro.html">影城介紹</a></li>
+            <li class="navList"><a href="">登入第一影城</a></li>
+        </ul>
+    </div>
+    <!-- 導覽列的漢堡 -->
+    <a class="ham" onclick="openNav()">&#9776;</a>
+    <a class="ham-x" onclick="closeNav()">×</a>
+
+     <!-- 內容 -->
+    <div class="container loca">
+        <time class="newsTime">2024/04/01</time>
+        <h1 class="newsH1">MUCROWN訂票公告</h1>
+        <h4 >MUCROWN頂級影廳目前線上訂票僅開放「單人套票」。</h4>
+        <p>如欲使用團體電影優待票、MUCROWN免費兌換券、優待票、愛心證及敬老證購票者，需至影城MUCROWN專屬櫃檯購票。
+            如尚有任何疑問，歡迎致電影城服務電話(02)8780-0800洽詢，將由專人為您服務。</p>
+        <br>
+        <button class="backTo"><a href="new.html">回上一頁</a></button>
+    </div>
+   
+    
+    <!-- footer -->
+    <div class="footer">
+        <!-- sns-icon -->
+        <div class="icon">
+            <div class="footerLeft"><a href="#">第一影城</a></div>
+            <a href="#"><i class="fa-facebook-official fa fa-3x fc"></i></a>
+            <a href="#"><i class="fa-instagram fa fa-3x ig"></i></a>
+            <a href="#"><i class="fa fa-envelope fa-3x ec"></i></a>
+        </div>
+        <div class="footer-content" >
+            <div class="w-33">
+                <div>影城資訊<br>Movie</div>
+                <a href="./intro.html">影城介紹</a><br>
+                <a href="./news.html">最新公告</a><br>
+                <a href=""></a>
+            </div>  
+            <div class="w-33">
+                <div>會員資訊<br>Member</div>
+                <a href="">加入會員</a><br>
+                <a href="">個人專區</a><br>
+                <a href="">我的票夾</a><br>
+            </div> 
+            <div class="w-33"> 
+                <div>其他資訊<br>More</div>
+                <a href="">常見問題</a><br>
+                <a href="./audio.html">口述影像</a><br>
+                <a href=""></a>
+            </div>   
+        </div>
+    </div>
+    <!-- 置頂 -->
+    <a href="#" class="pagetop">↑</a>
+    
+    <!-- 導覽列(div)的RWD -->
+    <script>
+        function openNav() {
+          document.getElementsByClassName("navRight")[0].style.display = "block";
+          document.getElementsByClassName("ham")[0].style.display = "none";
+          document.getElementsByClassName("ham-x")[0].style.display = "block";
+        }
+        
+        function closeNav() {
+            document.getElementsByClassName("navRight")[0].style.display = "none";
+            document.getElementsByClassName("ham")[0].style.display = "block";
+            document.getElementsByClassName("ham-x")[0].style.display = "none";
+        }
+    </script>
+</body>
+</html>

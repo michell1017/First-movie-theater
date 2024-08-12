@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Document</title>
+</head>
+    <div id="myNav">
+        <div class="navLeft"><a href="">第一影城</a></div>
+        <ul class="navRight">
+            <li class="navList"><a href="new.html">最新公告</a></li>
+            <li class="navList"><a href="">電影資訊</a></li>
+            <li class="navList"><a href="intro.html">影城介紹</a></li>
+            <li class="navList"><a href="">登入第一影城</a></li>
+        </ul>
+    </div>
+    <!-- 導覽列的漢堡 -->
+    <a class="ham" onclick="openNav()">&#9776;</a>
+    <a class="ham-x" onclick="closeNav()">×</a>
+
+     <!-- 內容 -->
+    <div class="container loca">
+        <time class="newsTime">2023/10/02</time>
+        <h1 class="newsH1">iShow會員權益公告</h1>
+        <p>第一影城為提供更多元便利的服務，非iShow會員無法使用線上訂票功能。原申辦網路會員者敬請於112/12/31(日)前免費辦理升級成為iShow會員，
+            逾期未升級者，網路帳號相關資料將自動刪除，恕不另行通知。</p>
+        <p>iShow卡號前八碼為95521010 之iShow舊式會員，敬請於112/12/31(日)前免費辦理升級為新式會員(新增儲值功能)，原帳戶所存之有效點數與贈品將一併轉入新帳號。
+            逾期未升級者，iShow舊式會員帳號相關資料(包含所有有效點數與已兌換未領取之贈品)將自動刪除、失效，恕不另行通知，為確保您的權益，敬請撥冗完成。</p>
+        <p>惟原持有實體iShow卡之快樂購聯合集點卡卡友權益及HAPPY GO點數累點功能將不受影響，仍可至其他HAPPY GO通路進行累點。</p>
+        <p>若有任何疑問，請致電影城洽詢(服務專線:
+            <a href="http://127.0.0.1:5500/intro.html">http://127.0.0.1:5500/intro.html</a>
+            )，以利後續會員相關權益執行。</p>
+        <p>第一影城保有對網路會員、iShow會員之申請及停用之准駁、各項服務說明及行銷活動之解釋、修改、隨時變更或終止各項服務與活動之權利。</p>
+        <br>
+        <button class="backTo"><a href="new.html">回上一頁</a></button>
+    </div>
+   
+    
+    <!-- footer -->
+    <div class="footer">
+        <!-- sns-icon -->
+        <div class="icon">
+            <div class="footerLeft"><a href="#">第一影城</a></div>
+            <a href="#"><i class="fa-facebook-official fa fa-3x fc"></i></a>
+            <a href="#"><i class="fa-instagram fa fa-3x ig"></i></a>
+            <a href="#"><i class="fa fa-envelope fa-3x ec"></i></a>
+        </div>
+        <div class="footer-content" >
+            <div class="w-33">
+                <div>影城資訊<br>Movie</div>
+                <a href="./intro.html">影城介紹</a><br>
+                <a href="./news.html">最新公告</a><br>
+                <a href=""></a>
+            </div>  
+            <div class="w-33">
+                <div>會員資訊<br>Member</div>
+                <a href="">加入會員</a><br>
+                <a href="">個人專區</a><br>
+                <a href="">我的票夾</a><br>
+            </div> 
+            <div class="w-33"> 
+                <div>其他資訊<br>More</div>
+                <a href="">常見問題</a><br>
+                <a href="./audio.html">口述影像</a><br>
+                <a href=""></a>
+            </div>   
+        </div>
+    </div>
+    <!-- 置頂 -->
+    <a href="#" class="pagetop">↑</a>
+    
+    <!-- 導覽列(div)的RWD -->
+    <script>
+        function openNav() {
+          document.getElementsByClassName("navRight")[0].style.display = "block";
+          document.getElementsByClassName("ham")[0].style.display = "none";
+          document.getElementsByClassName("ham-x")[0].style.display = "block";
+        }
+        
+        function closeNav() {
+            document.getElementsByClassName("navRight")[0].style.display = "none";
+            document.getElementsByClassName("ham")[0].style.display = "block";
+            document.getElementsByClassName("ham-x")[0].style.display = "none";
+        }
+    </script>
+</body>
+</html>
